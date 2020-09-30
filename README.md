@@ -20,6 +20,15 @@ This repository will contain stream plans and goals for the upcoming month.
   - Add exercises with increasing difficulty
   - Code available `/home/bmooreii/src/unisonweb-org/src/data/docs/abilities.md`
 
+- [ ] Add automatic link for `.doc` in ucm
+  - Issue: https://github.com/unisonweb/unison/issues/1684
+  - Relevant starting point: https://github.com/unisonweb/unison/blob/e77cce9e7ba56fdb52f7af161ea7ffb490410e9f/parser-typechecker/src/Unison/CommandLine/InputPatterns.hs#L304-L309
+
+- [ ] Fix bug where names can be bound multiple times
+  - See https://github.com/unisonweb/unison/issues/1645
+  - Do some `trace` debugging to determine entry point for expression parsing
+  - Ask about this in Unison Slack, maybe someone can point me in the right direction
+
 - [ ] **Bonus** Build and release `servant-oauth`
   - Need servant-generic server routes served on `/oauth2`
     - Routes include `/authorize` and `/callback` configured to some OAuth
