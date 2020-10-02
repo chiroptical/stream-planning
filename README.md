@@ -6,13 +6,14 @@ This repository will contain stream plans and goals for the upcoming month.
 ### October 2020 (Hacktoberfest)
 
 - Good first Unison website issues: https://github.com/unisonweb/unisonweb-org/issues
+  - Continue working on https://github.com/unisonweb/unisonweb-org/issues/60
 - Good first Unison issues: https://github.com/unisonweb/unison/labels/good%20first%20issue
 - [ ] Implement `unison completions`
+  - Working on this in `/home/bmooreii/workspace/unison-bash-completions`
   - See https://github.com/unisonweb/unison/issues/1670
   - Add `completions` command to https://github.com/unisonweb/unison/blob/df653686004a6fddb89a559ce501371c75d9a099/parser-typechecker/unison/Main.hs#L50
   - Add `completions` pattern match to https://github.com/unisonweb/unison/blob/df653686004a6fddb89a559ce501371c75d9a099/parser-typechecker/unison/Main.hs#L151
   - Add `Completions.hs` to `parser-typechecker/unison` with completions code
-  - Example completions available here: https://github.com/kitzeslab/opensoundscape/blob/develop/opensoundscape/completions.py
 - [ ] Write "Creating Abilities" Tutorial for Unison
   - See https://www.unisonweb.org/docs/abilities#creating-and-handling-abilities
   - Reorganize the section to connect `emit : e -> ()` with `handle k () with h ...`
